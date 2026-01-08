@@ -1,0 +1,8 @@
+export default tseslint.config(
+  {
+    // Globally ignore these folders
+    ignores: ['dist/**', 'node_modules/**', 'coverage/**'],
+  },
+  eslint.configs.recommended,
+  // ... rest of config
+);
